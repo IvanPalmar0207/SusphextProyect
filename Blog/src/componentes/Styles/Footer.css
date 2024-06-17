@@ -1,0 +1,45 @@
+/*Title*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    transition: all;
+}
+
+footer .containerText{
+    margin: 25px;
+}
+
+.containerText span{
+    text-decoration: underline;
+}
+
+.containerIconsFooter{
+    display: flex;
+}
+
+.containerIconsFooter .linkIconFooter{
+    font-size: 30px;
+    color: white;
+    transition: all;
+    margin: 10px;
+}
+
+.linkIconFooter:hover{
+    color: gray;
+    transition: all ease 0.3s;
+}
+
+@media (max-width:900px) {
+    .containerIconsFooter{
+        flex-direction: column;
+    }
+}
