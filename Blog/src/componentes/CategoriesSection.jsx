@@ -21,9 +21,6 @@ export function CategoriesSection(){
                         <Link to = 'Artist'>Artistas</Link>
                     </li>
                     <li>
-                        <Link to = 'Publicity'>Diseños Publicitarios</Link>
-                    </li>
-                    <li>
                         <Link to = 'Others'>Otros</Link>
                     </li>
                 </ul>

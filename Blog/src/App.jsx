@@ -12,7 +12,6 @@ import { ContactUs } from "./pages/ContactUs"
 import { Event } from "./pages/Events"
 import { PhotoSession } from "./pages/PhotoSesion"
 import { Artist } from "./pages/Artist"
-import { Publicity } from "./pages/Publicity"
 import { Others } from "./pages/Others"
 
 function App() {
@@ -28,8 +27,7 @@ function App() {
         <Route path="/Briefcase" element = {<Briefcase />}/>
         <Route path="/Event" element = {<Event />}/>
         <Route path="/PhotoSession" element = {<PhotoSession />}/>
-        <Route path="/Artist" element = {<Artist />}/>
-        <Route path="/Publicity" element = {<Publicity />}/>
+        <Route path="/Artist" element = {<Artist />}/>        
         <Route path="/Others" element = {<Others />}/>
       </Routes>
       <FooterPage />

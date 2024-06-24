@@ -12,7 +12,7 @@ export function Categorie(
     return(
         <>
             {TitlePage('Portafolio')}     
-            <section className="containerMP">
+        <section className="containerMP">
             <div className="containerSection">
                 <h2>{proyectName1}</h2>
                 <div className="containerImagesMP">
