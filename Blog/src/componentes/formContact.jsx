@@ -82,24 +82,24 @@ export function FormContact(){
         else{
         
             const emailData = {
-            names : data.names,
-            surname : data.surname,
-            phoneContact : data.phoneContact,
-            emailUser : data.emailUser,
-            description : data.description
-        }
+                names : data.names,
+                surname : data.surname,
+                phoneContact : data.phoneContact,
+                emailUser : data.emailUser,
+                description : data.description
+            }
 
-        emailjs.send('service_4drt7ht','template_5vlz926',emailData,'kUQOOceO9Xf0JH5bn')
+            emailjs.send('service_4drt7ht','template_5vlz926',emailData,'kUQOOceO9Xf0JH5bn')
 
-        Swal.fire({
-            icon: "success",
-            title: "Correo enviado exitosamente",
-            confirmButtonColor:'#3ed634',                
-            confirmButtonText : 'Siguiente',
-            text: "La sugerencia se ha enviado correctamente",            
-        });         
+            Swal.fire({
+                icon: "success",
+                title: "Correo enviado exitosamente",
+                confirmButtonColor:'#3ed634',                
+                confirmButtonText : 'Siguiente',
+                text: "La sugerencia se ha enviado correctamente",                            
+            });         
 
-        navigate('/')
+            navigate('/')
     
     }
 
