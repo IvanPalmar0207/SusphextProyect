@@ -1,0 +1,25 @@
+.containerFound{
+    height: auto;
+    text-align: center;
+    padding: 80px;
+}
+
+.containerFound img{
+    width: 250px;
+    height: 300px;
+}
+
+.containerFound h2{
+    margin-top: 40px;
+    color: #58b3d6;
+    font-weight: bold;
+}
+
+.containerFound p{
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: medium;    
+    margin-top: 20px;
+}

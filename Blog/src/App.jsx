@@ -13,6 +13,7 @@ import { Event } from "./pages/Events"
 import { PhotoSession } from "./pages/PhotoSesion"
 import { Artist } from "./pages/Artist"
 import { Others } from "./pages/Others"
+import { NotFound } from "./pages/NotFound"
 
 function App() {
   return (    
@@ -29,6 +30,7 @@ function App() {
         <Route path="/PhotoSession" element = {<PhotoSession />}/>
         <Route path="/Artist" element = {<Artist />}/>        
         <Route path="/Others" element = {<Others />}/>
+        <Route path="*" element = {<NotFound />}/>
       </Routes>
       <FooterPage />
     </BrowserRouter>
