@@ -6,9 +6,10 @@ import { MdEmail, MdOutlinePhone } from "react-icons/md";
 import { FiSmartphone } from "react-icons/fi";
 /*Styles*/
 import './Styles/ContactUs.css'
-import ImageForm from './imgs/ContactUs/ImageForm.jpg';
+import { FormContact } from "../componentes/formContact";
 
 export function ContactUs(){
+
     return(
         <>
             {TitlePage('Contacta Suspect')}
@@ -46,39 +47,7 @@ export function ContactUs(){
 
                     <h2 className="formTitle">Contacta a SusxPHxecT🔥</h2>
 
-                    <div className="formContact">
-                        <form className="containerFormContact">
-                        
-                            <input className="fields" type="text" placeholder="Nombres" required/>
-
-                            <br />
-                        
-                            <input className="fields" type="text" placeholder="Apellidos" required/>
-
-                            <br />
-                                            
-                            <input className="fields" type="text" placeholder="Numero de telefono" required/>
-
-                            <br />
-                        
-                            <input className="fields" type="email" placeholder="Email" required/>
-
-                            <br />
-                
-                            <textarea className='fieldsArea' name="description" rows={8} cols={40} placeholder="Escribe tu mensaje"></textarea>                        
-
-                            <br />                    
-
-                            <div className="containerButtons">
-                                <input className="buttonContact" type="reset" value="Borrar"/>
-                                <input className='buttonContact' type="submit" value="Enviar"/>
-                            </div>
-
-                        </form>
-
-                        <img className="modelImage" src={ImageForm} alt="imageForm" />
-
-                    </div>
+                   <FormContact />
 
                 </section>
             </div>

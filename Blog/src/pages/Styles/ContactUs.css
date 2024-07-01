@@ -104,16 +104,6 @@ h2{
     border-bottom: 1px solid black;
 }
 
-.containerFormContact .fields:invalid{
-    color: red;
-    border-bottom: 2px solid red;
-}
-
-.containerFormContact .fields:valid{
-    border-bottom: 2px solid green;
-    color: green;
-}
-
 .containerFormContact .fieldsArea{
     width: 90%;
     height: 100px;
